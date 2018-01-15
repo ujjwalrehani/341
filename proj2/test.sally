@@ -1,0 +1,47 @@
+7 -6 + . CR          
+
+1 3 -  NEG . CR
+
+9 3 / . CR 
+
+12 8 % . CR
+
+3 4 * -3 NEG +  13 3 -  % . CR
+
+17 13 <  . CR
+17 23 <  . CR
+
+35 31 <= . CR
+31 31 <= . CR
+
+91 19 == . CR
+19 19 == . CR
+
+19 19 != . CR
+91 19 != . CR
+
+37 43 >= . CR
+43 43 >= . CR
+
+61 75 >  . CR
+95 75 >  . CR
+
+
+7 -6 + . CR          
+
+1 3 -  NEG . CR
+
+9 3 / . CR 
+
+12 8 % . CR
+
+3 4 * -3 NEG +  13 3 -  % . CR
+
+
+15 DUP . SP . CR          // Prints 15 15 
+
+17 14 DROP . CR           // Prints 17
+
+20 30 SWAP . SP  . CR     // Prints 20 30
+
+1 3 2 ROT . SP . SP . CR  // Prints 1 2 3
